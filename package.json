@@ -1,0 +1,16 @@
+{
+    "name": "jamstack-folder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "vibe.js",
+    "scripts": {
+        "build": "eleventy",
+        "start": "eleventy --serve"
+    },
+    "keywords": [],
+    "author": "Chris Sean",
+    "license": "ISC",
+    "dependencies": {
+        "@11ty/eleventy": "^0.12.1"
+    }
+}
