@@ -7,7 +7,16 @@
     <h1>This is a page for you</h1>
     <div class="vibe">You are great!</div>
     <div class="love">
-        Love
+       Headline goes here
     </div>
+
+    <ul>
+    {% for article in news.articles %}
+        <li> 
+            <h3><a target="_blank" href="{{ article.url }}">{{ article.title }}</a></h3>
+            <span>{{ article.source.name }} - <time> {{ article.publishedAt }}</time></span>
+        </li>
+    {% endfor %}
+    </ul>
 </div>
 <script src="/js/vibe.js"></script>

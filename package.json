@@ -11,6 +11,8 @@
     "author": "Chris Sean",
     "license": "ISC",
     "dependencies": {
-        "@11ty/eleventy": "^0.12.1"
+        "@11ty/eleventy": "^0.12.1",
+        "axios": "^0.21.3",
+        "dotenv": "^10.0.0"
     }
 }
