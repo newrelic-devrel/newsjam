@@ -4,6 +4,7 @@
     "description": "",
     "main": "vibe.js",
     "scripts": {
+        "prebuild": "npm install --save-dev",
         "build": "eleventy",
         "start": "eleventy --serve"
     },
