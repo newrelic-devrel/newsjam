@@ -20,7 +20,8 @@ The technologies we will be using with this jamstack:
 # Clone and deploy
 To get started quickly clone this repo and deploy it as a new site on Netlify. You can click the button below for a rapid start. 
 
-<p><a role="button" href="https://trynewrelic.com" target="_blank">Sign up for New Relic</a></p>
-<p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/therelicans/newsjam" rel="nofollow">Deploy to Netlify</a></p>
+1. <p><a role="button" href="https://trynewrelic.com" target="_blank">Sign up for free New Relic</a></p>
+2. <p><a role="button" href="https://newsapi.org" target="_blank">Register at NewsAPI.org for API Key</a></p>
+3. <p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/therelicans/newsjam" rel="nofollow">Deploy to Netlify</a></p>
 
 
