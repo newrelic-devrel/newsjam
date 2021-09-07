@@ -1,2 +1,2 @@
 [template.environment]
-  NEWS_API_TOKEN = "<include your API key from news-api.org here>"
+  NEWS_API_KEY = "<include your API key from news-api.org here>"
