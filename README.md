@@ -2,26 +2,13 @@
 
 A News API demo application for New Relic browser monitoring.
 
-# About this project:
-In this project, we are providing step-by-step instructions on how to install the new relic browser agent on your Jamstack application using Netlify and Eleventy.
+# Setup
 
+1. Deploy to Netlify.
+2. Add your NewsAPI.org API key at the prompt (<a href="https://newsapi.org" target="_blank">register to create your key</a>).
+3. Inject the [New Relic browser JavaScript snippet](https://docs.newrelic.com/docs/browser/browser-monitoring/installation/install-browser-monitoring-agent/#copy-paste-app) using [Netlify snippet injection](https://docs.netlify.com/site-deploys/post-processing/snippet-injection/).
 
-# Prerequisites:
-- Github
-- Netlify account
-- Free New Relic account (https://trynewrelic.com)
-- Basic understanding of deploying with Git.
+For more detailed instructions see this blog post: [How to Measure Jamstack Application Performance](https://newrelic.com/blog)
 
-
-# Technologies:
-The technologies we will be using with this jamstack:
-- Eleventy.js
-
-# Clone and deploy
-To get started quickly clone this repo and deploy it as a new site on Netlify. You can click the button below for a rapid start. 
-
-1. <p><a role="button" href="https://trynewrelic.com" target="_blank">Sign up for free New Relic</a></p>
-2. <p><a role="button" href="https://newsapi.org" target="_blank">Register at NewsAPI.org for API Key</a></p>
-3. <p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/therelicans/newsjam" rel="nofollow">Deploy to Netlify</a></p>
-
-
+[<img src="https://trynewrelic.com/signup.svg">](https://trynewrelic.com)
+[<img src="https://www.netlify.com/img/deploy/button.svg">](https://app.netlify.com/start/deploy?repository=https://github.com/therelicans/newsjam)
